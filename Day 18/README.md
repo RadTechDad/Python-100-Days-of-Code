@@ -7,9 +7,9 @@ In Day 18, I explored Turtle Graphics in Python, creating various visual element
 
 ### Files:
 
-- **[shapes.py](https://github.com/radtechdad/Python-100-Days-of-Code/blob/main/Day%2018/shapes.py)** - A program that draws different geometric shapes with varying colors.
+- **[shapes.py](src/shapes.py)** - A program that draws different geometric shapes with varying colors.
 
-  ![Shapes Demo](https://github.com/radtechdad/Python-100-Days-of-Code/blob/main/Day%2018/shapes.py_01_ss.png)
+  ![Shapes Demo](img/shapes.py_01.gif)
 
 ---
 

@@ -19,8 +19,6 @@ def main():
         monty.speed(draw_speed)
 
     def graphics_end():
-        monty.hideturtle()
-        monty.showturtle()
         screen.exitonclick()
 
     def random_rgb_color():

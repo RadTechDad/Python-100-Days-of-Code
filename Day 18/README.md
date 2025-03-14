@@ -12,12 +12,23 @@ I've completed:
 |:-----------------------------------------------------------------------------------------------------:|
 |                                 ![Shapes Demo](img/shapes.py_01.gif)                                  |
 
+
 <br />
 <br />
 
-| **[random_walk.py](src/random_walk.py)** - A program that demonstrates the stochastic process, known as a "Random Walk", which describes a path that consists of a succession of random steps on some mathematical space [^1]. |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                          ![Random Walk 1](img/random_walk.py_01.gif)![Random Walk 2](img/random_walk.py_02.gif)![Random Walk 3](img/random_walk.py_03.gif)![Random Walk 4](img/random_walk.py_04.gif)                          |
+
+| **[random_walk.py](src/random_walk.py)** - A program that demonstrates the stochastic vprocess,<br/>known as a "Random Walk", which describes a path that consists of a succession<br/>of random steps on some mathematical space [^1]. |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                              ![Random Walk 1](img/random_walk.py_01.gif)![Random Walk 2](img/random_walk.py_02.gif)![Random Walk 3](img/random_walk.py_03.gif)![Random Walk 4](img/random_walk.py_04.gif)                               |
+
+
+<br />
+<br />
+
+
+| **[spiralgraph.py](src/spiralgraph.py)** - A program that draws a spiralgraph in varying colors<br/>with a given number of circles. |
+|:-----------------------------------------------------------------------------------------------------------------------------------:|
+|                                              ![Shapes Demo](img/spiralgraph.py_01.gif)                                              |
 
 ---
 

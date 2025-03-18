@@ -15,7 +15,7 @@ def main():
             palette.extend(load_color_dict_from_json())
         else: # If json data doesn't exist, create it
             monty.penup()
-            monty.sety(monty.ycor()-30)
+            monty.sety(monty.ycor()-50)
             monty.write(f"Colors not cached. Please wait while we calculate the colors from", align='center', font=('Arial', 14, 'normal'))
             monty.sety(monty.ycor()-30)
             monty.write(f"\"{PALETTE_IMAGE}\".", align='center', font=('Courier New', 14, 'normal'))
@@ -26,8 +26,9 @@ def main():
             print(f"Colors cached to \"{JSON_DATA_FILE}\".")
 
             palette.extend(color_list)
+            screen.reset()
 
-            screen.clearscreen()
+        monty.speed(DRAW_SPEED)
 
     def graphics_start():
         img = os.path.join(IMAGE_FOLDER, TURTLE_SHAPE_IMAGE)
@@ -106,10 +107,10 @@ def main():
             for xpos in range(DOT_MATRIX_SIZE):
                 monty.setx(startx + (xpos * (DOT_SIZE + DOT_SPACING)))
                 monty.pendown()
+                # print(f"Monty: ({monty.pos()}) | Visible? {monty.isvisible()} | Pen down? {monty.isdown()} | Color: {c}")
                 monty.dot(DOT_SIZE, random_pal_color())
                 monty.penup()
             monty.setx(startx)
-
 
 
 
@@ -134,6 +135,8 @@ def main():
 
     WINDOW_PADDING = 50
     WINDOW_SIZE = CANVAS_SIZE + (WINDOW_PADDING * 2)
+
+
 
     #####
     # Variables
